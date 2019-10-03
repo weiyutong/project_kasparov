@@ -11,17 +11,30 @@ Chess openings are the first few inital moves of a chess game. They heavily deci
 * How do players vary their openings within a match?
 * How has the popularity of an opening changed over time?
 
+High-skill chess competitors (those with Elo ratings > 
+
 ## Data
 
-`.pgn` (Portable Game Notation) is a text file format which records chess games from which the majority of our data will be acquired. The relevant fields for this project are `Result`, `WhiteElo`, `BlackElo`, `ECO`, `Variation`, `Opening`, and the algebraic chess notation body for the round.
+`.pgn` (Portable Game Notation) is a text file format which records chess games from which the majority of our data will be acquired. The relevant fields for this project are `Result`, `WhiteElo`, `BlackElo`, `ECO`, `Variation`, `Opening`, and the algebraic chess notation body for the round. I looked at only standard chess games (i.e. no rapid, blitz, lightning, and variant games) between humans.
 
 Data were collected/referenced from these sites: 
 
 * <em>Encyclopedia of Chess Openings</em> 
-  A compendium of almost all possible chess openings which are organized by an alphanumeric code. For example 
+
+  A compendium of almost all possible chess openings which are organized by an alphanumeric code in a recursive manner and hierarchical manner. For example all openings that involve first white moving their kingside pawn and then black moving their kingside pawn are located in Volume C. Then all openings that start off with 1. e4 e5 ... a.k.a. the Open Game all have ECO codes in the range C20 - C99. Then all openings which follow with 2. Nc3 (the Vienna Game) are in the range C25 - C29, with the specific opening 1.e4 e5 2.Nc3 Nf6 3.Bc4 Nc6 given the ECO code C29. Openings that have a specific code (as opposed to a range) don't all go into same depth in the game.
+  
 * <em>theweekinchess.com</em>
+
 * <em>FICS Games Database</em>
-*e
+
+Using web scraping techniques, I 
+
+## Analysis
+
+## Modeling
+
+## Conclusions
+
 ## Simulations (tentative)
 
 ## Game Theory Applications
