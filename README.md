@@ -47,8 +47,13 @@ https://python-chess.readthedocs.io/en/latest/engine.html#indefinite-or-infinite
 
 ## Simulations (tentative)
 
-## Game Theory Applications
+## Game Theory/Business Strategy Applications
 
+Nash Equilibrium
+
+Solution concept
+
+Asymmetric Game Theory
 ## Appendix
 
 ### Definitions
