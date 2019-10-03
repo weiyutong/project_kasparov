@@ -27,11 +27,21 @@ Data were collected/referenced from these sites:
 
 * <em>FICS Games Database</em>
 
+* <em>Polyglot Opening Books</em>
+
 Using web scraping techniques, I 
 
 ## Analysis
 
+I used `python-chess` package which is used to analyze `.pgn` files and do extensive chess analysis.
+
+https://python-chess.readthedocs.io/en/latest/index.html
+
+https://python-chess.readthedocs.io/en/latest/pgn.html#skimming
+
 ## Modeling
+
+https://python-chess.readthedocs.io/en/latest/engine.html#indefinite-or-infinite-analysis
 
 ## Conclusions
 
