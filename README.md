@@ -61,3 +61,9 @@ Asymmetric Game Theory
 * Elo Ratings System: A method for calculating the relative skill levels of players in chess. 
 * Stockfish: A powerful chess AI.
 * Algebraic Chess Notation: A notation system that records the moves in a game of chess. 
+* Total games $$N$$
+* Instances $$n_i$$ : Number of times an opening or move has been observed.
+* Frequency $$f_i$$: Ratio of one opening's or move's instances to all openings' or moves' instances.
+ 
+* Win Frequency $$f_{i,white win} = n_{i,white win}/n_white_win$$: Frequency of an opening or move in winning games for white.
+* Win Effectivenes: $$E = 
