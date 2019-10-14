@@ -11,8 +11,6 @@ Chess openings are the first few inital moves of a chess game. They heavily deci
 * How do players vary their openings within a match?
 * How has the popularity of an opening changed over time?
 
-High-skill chess competitors (those with Elo ratings > 
-
 ## Data
 
 `.pgn` (Portable Game Notation) is a text file format which records chess games from which the majority of our data will be acquired. The relevant fields for this project are `Result`, `WhiteElo`, `BlackElo`, `ECO`, `Variation`, `Opening`, and the algebraic chess notation body for the round. I looked at only standard chess games (i.e. no rapid, blitz, lightning, and variant games) between humans.
@@ -29,7 +27,6 @@ Data were collected/referenced from these sites:
 
 * <em>Polyglot Opening Books</em>
 
-Using web scraping techniques, I 
 
 ## Analysis
 
@@ -41,11 +38,7 @@ https://python-chess.readthedocs.io/en/latest/pgn.html#skimming
 
 ## Modeling
 
-https://python-chess.readthedocs.io/en/latest/engine.html#indefinite-or-infinite-analysis
-
-## Conclusions
-
-## Simulations (tentative)
+Modeling done with `sklearn` and `statsmodels`
 
 ## Game Theory/Business Strategy Applications
 
@@ -59,11 +52,6 @@ Asymmetric Game Theory
 ### Definitions
 
 * Elo Ratings System: A method for calculating the relative skill levels of players in chess. 
-* Stockfish: A powerful chess AI.
 * Algebraic Chess Notation: A notation system that records the moves in a game of chess. 
-* Total games $$N$$
-* Instances $$n_i$$ : Number of times an opening or move has been observed.
-* Frequency $$f_i$$: Ratio of one opening's or move's instances to all openings' or moves' instances.
- 
-* Win Frequency $$f_{i,white win} = n_{i,white win}/n_white_win$$: Frequency of an opening or move in winning games for white.
-* Win Effectivenes: $$E = 
+* Frequency: Ratio of one opening's or move's instances to all openings' or moves' instances.
+* Win Ratio: Frequency of an opening or move in winning games for white.
